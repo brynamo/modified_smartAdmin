@@ -22,7 +22,9 @@
     background: #D7DFE0 !important;
 }
 
-/* Text Color Mods*/
+/*=============
+Text Color Mods
+=============*/
 .txt-color-green {
     color:#47DBB7 !important;
 }
@@ -34,9 +36,16 @@
 .txt-color-greenDark {
     color:#41A6A8 !important;
 }
-/* End Text Color Mods*/
+/*=================
+End Text Color Mods
+=================*/
 
-/*Widget Mods*/
+
+
+/*=========
+Widget Mods
+=========*/
+
 /* greenDark theme */
 .jarviswidget-color-greenDark > header {
     border-color: #389091 !important;
@@ -56,17 +65,28 @@
     max-width: 50%;
     display: block;
 }
-/*End Widget Mods*/
+/*=============
+End Widget Mods
+=============*/
 
-/*Mods to fixed-menu Nav*/
+
+
+/*====================
+Mods to fixed-menu Nav
+====================*/
 .fixed-navigation nav>ul {
     padding-right: 0px !important;
     width: 100%;
 }
+/*=====================
+end fixed-menu nav mods
+=====================*/
 
-/*end fixed-menu nav mods*/
 
-/* Mods to style-3 Colors*/
+
+/*====================
+Mods to style-3 Colors
+====================*/
 
 .smart-style-3 body, body.smart-style-3 {
     background: #fff !important;
@@ -441,5 +461,15 @@
         border-radius: 0
     }
 }
+/*=======================
+End of Smart-Style 3 Mods
+=======================*/
 
-/*Login Page Mods*/
+
+
+/*============
+Accordian Mods
+============*/
+.inner_list_group {
+    padding-left: 20px;
+}
