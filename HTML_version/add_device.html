@@ -917,12 +917,217 @@ Use search to find needed section.
             <!-- end row -->
         </section>
         <!-- end widget grid -->
-
     </div>
     <!-- END MAIN CONTENT -->
-
 </div>
 <!-- END MAIN PANEL -->
+
+<!-- Add Device Button -->
+<a class="add_device"  data-toggle="modal" data-target="#myModal"><img src="img/flat_plus.png"></a>
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Add A New Device</h4>
+            </div>
+            <div class="modal-body">
+                <form class="smart-form">
+                    <fieldset>
+                        <section>
+                            <label class="label">Device Name</label>
+                            <label class="input">
+                                <input type="text" class="input-sm">
+                            </label>
+                        </section>
+                        <section>
+                            <label class="label">Did You Use Our Kit?</label>
+                            <div class="inline-group">
+                                <label class="radio">
+                                    <input type="radio" name="radio-inline">
+                                    <i></i>Yes</label>
+                                <label class="radio">
+                                    <input type="radio" name="radio-inline">
+                                    <i></i>No</label>
+                            </div>
+                        </section>
+                    </fieldset>
+                    <header>
+                        Standard Form Header
+                    </header>
+                    <fieldset>
+                        <section>
+                            <label class="label">Device Type</label>
+                            <label class="input">
+                                <input type="text" list="list">
+                                <datalist id="list">
+                                    <option value="Arduino">Arduino</option>
+                                    <option value="Photon">Photon</option>
+                                    <option value="Raspberry Pi">Raspberry Pi</option>
+                                    <option value="Other">Other</option>
+                                </datalist>
+                            </label>
+                        </section>
+
+                    </fieldset>
+
+                    <fieldset>
+                        <section>
+                            <label class="label">Sensors</label>
+                            <div class="row">
+                                <div class="col col-4">
+                                    <label class="checkbox">
+                                        <input type="checkbox" name="checkbox">
+                                        <i></i>Alexandra</label>
+                                    <label class="checkbox">
+                                        <input type="checkbox" name="checkbox">
+                                        <i></i>Alice</label>
+                                    <label class="checkbox">
+                                        <input type="checkbox" name="checkbox">
+                                        <i></i>Anastasia</label>
+                                </div>
+                                <div class="col col-4">
+                                    <label class="checkbox">
+                                        <input type="checkbox" name="checkbox">
+                                        <i></i>Avelina</label>
+                                    <label class="checkbox">
+                                        <input type="checkbox" name="checkbox">
+                                        <i></i>Basilia</label>
+                                    <label class="checkbox">
+                                        <input type="checkbox" name="checkbox">
+                                        <i></i>Beatrice</label>
+                                </div>
+                                <div class="col col-4">
+                                    <label class="checkbox">
+                                        <input type="checkbox" name="checkbox">
+                                        <i></i>Cassandra</label>
+                                    <label class="checkbox">
+                                        <input type="checkbox" name="checkbox">
+                                        <i></i>Clemencia</label>
+                                    <label class="checkbox">
+                                        <input type="checkbox" name="checkbox">
+                                        <i></i>Desiderata</label>
+                                </div>
+                            </div>
+                        </section>
+                    </fieldset>
+
+                    <fieldset>
+                        <div class="row">
+                            <section class="col col-5">
+                                <label class="label">Radio Toggles</label>
+                                <label class="toggle">
+                                    <input type="radio" name="radio-toggle" checked="checked">
+                                    <i data-swchon-text="ON" data-swchoff-text="OFF"></i>Alexandra</label>
+                                <label class="toggle">
+                                    <input type="radio" name="radio-toggle">
+                                    <i data-swchon-text="ON" data-swchoff-text="OFF"></i>Anastasia</label>
+                                <label class="toggle">
+                                    <input type="radio" name="radio-toggle">
+                                    <i data-swchon-text="ON" data-swchoff-text="OFF"></i>Avelina</label>
+                            </section>
+
+                            <div class="col col-2"></div>
+
+                            <section class="col col-5">
+                                <label class="label">Checkbox Toggles</label>
+                                <label class="toggle">
+                                    <input type="checkbox" name="checkbox-toggle" checked="checked">
+                                    <i data-swchon-text="ON" data-swchoff-text="OFF"></i>Cassandra</label>
+                                <label class="toggle">
+                                    <input type="checkbox" name="checkbox-toggle">
+                                    <i data-swchon-text="ON" data-swchoff-text="OFF"></i>Clemencia</label>
+                                <label class="toggle">
+                                    <input type="checkbox" name="checkbox-toggle">
+                                    <i data-swchon-text="ON" data-swchoff-text="OFF"></i>Desiderata</label>
+                            </section>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <section>
+                            <label class="label">Ratings with different icons</label>
+                            <div class="rating">
+                                <input type="radio" name="stars-rating" id="stars-rating-5">
+                                <label for="stars-rating-5"><i class="fa fa-star"></i></label>
+                                <input type="radio" name="stars-rating" id="stars-rating-4">
+                                <label for="stars-rating-4"><i class="fa fa-star"></i></label>
+                                <input type="radio" name="stars-rating" id="stars-rating-3">
+                                <label for="stars-rating-3"><i class="fa fa-star"></i></label>
+                                <input type="radio" name="stars-rating" id="stars-rating-2">
+                                <label for="stars-rating-2"><i class="fa fa-star"></i></label>
+                                <input type="radio" name="stars-rating" id="stars-rating-1">
+                                <label for="stars-rating-1"><i class="fa fa-star"></i></label>
+                                Stars
+                            </div>
+
+                            <div class="rating">
+                                <input type="radio" name="trophies-rating" id="trophies-rating-7">
+                                <label for="trophies-rating-7"><i class="fa fa-trophy"></i></label>
+                                <input type="radio" name="trophies-rating" id="trophies-rating-6">
+                                <label for="trophies-rating-6"><i class="fa fa-trophy"></i></label>
+                                <input type="radio" name="trophies-rating" id="trophies-rating-5">
+                                <label for="trophies-rating-5"><i class="fa fa-trophy"></i></label>
+                                <input type="radio" name="trophies-rating" id="trophies-rating-4">
+                                <label for="trophies-rating-4"><i class="fa fa-trophy"></i></label>
+                                <input type="radio" name="trophies-rating" id="trophies-rating-3">
+                                <label for="trophies-rating-3"><i class="fa fa-trophy"></i></label>
+                                <input type="radio" name="trophies-rating" id="trophies-rating-2">
+                                <label for="trophies-rating-2"><i class="fa fa-trophy"></i></label>
+                                <input type="radio" name="trophies-rating" id="trophies-rating-1">
+                                <label for="trophies-rating-1"><i class="fa fa-trophy"></i></label>
+                                Trophies
+                            </div>
+
+                            <div class="rating">
+                                <input type="radio" name="asterisks-rating" id="asterisks-rating-10">
+                                <label for="asterisks-rating-10"><i class="fa fa-asterisk"></i></label>
+                                <input type="radio" name="asterisks-rating" id="asterisks-rating-9">
+                                <label for="asterisks-rating-9"><i class="fa fa-asterisk"></i></label>
+                                <input type="radio" name="asterisks-rating" id="asterisks-rating-8">
+                                <label for="asterisks-rating-8"><i class="fa fa-asterisk"></i></label>
+                                <input type="radio" name="asterisks-rating" id="asterisks-rating-7">
+                                <label for="asterisks-rating-7"><i class="fa fa-asterisk"></i></label>
+                                <input type="radio" name="asterisks-rating" id="asterisks-rating-6">
+                                <label for="asterisks-rating-6"><i class="fa fa-asterisk"></i></label>
+                                <input type="radio" name="asterisks-rating" id="asterisks-rating-5">
+                                <label for="asterisks-rating-5"><i class="fa fa-asterisk"></i></label>
+                                <input type="radio" name="asterisks-rating" id="asterisks-rating-4">
+                                <label for="asterisks-rating-4"><i class="fa fa-asterisk"></i></label>
+                                <input type="radio" name="asterisks-rating" id="asterisks-rating-3">
+                                <label for="asterisks-rating-3"><i class="fa fa-asterisk"></i></label>
+                                <input type="radio" name="asterisks-rating" id="asterisks-rating-2">
+                                <label for="asterisks-rating-2"><i class="fa fa-asterisk"></i></label>
+                                <input type="radio" name="asterisks-rating" id="asterisks-rating-1">
+                                <label for="asterisks-rating-1"><i class="fa fa-asterisk"></i></label>
+                                Asterisks
+                            </div>
+                            <div class="note">
+                                <strong>Note:</strong> you can use more than 300 vector icons for rating.
+                            </div>
+                        </section>
+                    </fieldset>
+
+                    <footer>
+                        <button type="submit" class="btn btn-primary">
+                            Submit
+                        </button>
+                        <button type="button" class="btn btn-default" onclick="window.history.back();">
+                            Back
+                        </button>
+                    </footer>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-primary btn-xs">Save New Device</button>
+                <button type="button" class="btn btn-default btn-xs" data-dismiss="modal">Cancel</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- End Add Device Button -->
 
 <!-- PAGE FOOTER -->
 <div class="page-footer">

@@ -22,6 +22,11 @@
     background: #D7DFE0 !important;
 }
 
+#main {
+    padding-bottom: 97px !important;
+    padding-right: 50px;
+}
+
 /*=============
 Text Color Mods
 =============*/
@@ -461,6 +466,13 @@ Mods to style-3 Colors
         border-radius: 0
     }
 }
+
+.btn-primary {
+    color: #fff;
+    background-color: #41A6A8;
+    border-color: #2F797A;
+}
+
 /*=======================
 End of Smart-Style 3 Mods
 =======================*/
@@ -472,4 +484,38 @@ Accordian Mods
 ============*/
 .inner_list_group {
     padding-left: 20px;
+}
+
+/*=============
+Add Device Mods
+=============*/
+
+.add_device {
+    display: block;
+    float:none !important;
+}
+@media (min-width: 768px){
+    .add_device img {
+        max-width: 45px;
+        display: block;
+        margin-right: 9px;
+        float: right;
+        z-index: 1000;
+        position:fixed;
+        right:0;
+        bottom: 62px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767px){
+    .add_device img {
+        max-width: 5%;
+        display: block;
+        margin: 0 auto;
+        float: right;
+        z-index: 1000;
+        position:fixed;
+        right:0;
+        bottom: 62px;
+    }
 }
